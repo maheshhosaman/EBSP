@@ -57,3 +57,10 @@ last_updated_by = 4618,
 last_update_date = sysdate
 where upper(state) = 'HR'
 and country = 'IN';
+
+update hz_locations
+set state = 'Hary',
+last_updated_by = 4618,
+last_update_date = sysdate
+where upper(state) = 'HR'
+and country = 'IN';
